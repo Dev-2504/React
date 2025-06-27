@@ -1,0 +1,53 @@
+#Three {
+    background-image: url("../assets/Three/Background.webp");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: transparent;
+
+  /* Center slide text vertically */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.swiper-button-next, .swiper-button-prev {
+    background-color: white;
+    height: 35px;
+    width: 35px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-button-next::after{
+    font-size: 15px;
+    color: gray;
+}
+
+.swiper-button-prev::after {
+    font-size: 15px;
+    color: gray;    
+}

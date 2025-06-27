@@ -1,0 +1,131 @@
+* {
+    /* border: 1px solid black; */
+     font-family: "Montserrat", sans-serif;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Content {
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px 150px 20px;
+    overflow-y: auto;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(5,1fr); 
+    /* grid-template-rows: ; */
+    gap: 10px;
+    transition: all 1s;
+    background-color: #30334e;
+}
+
+
+/* Card Css */
+
+.Card {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #6b6c6e;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* Card First Image Css */
+.card_img {
+    height: 400px;
+    width: 100%;
+    /* background-image: url(./Icon/ion--bag.svg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Card Second Content Css */
+.card_content {
+    padding: 10px 7px 3px 7px;
+}
+
+
+.card_title {
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}   
+
+.card_des {
+    font-size: 12px;
+    font-weight: 500;
+        color: white;
+    margin-top: 7px;
+}
+
+.card_price {
+    margin-top: 7px;
+}
+
+.card_act_price {
+    font-size: 14px;
+    font-weight: 700;
+        color: white;
+}
+
+.card_price_des {
+    font-size: 13px;
+    font-weight: 600;
+        color: white;
+    margin-left: 3px;
+}
+
+.card_price_per {
+    font-size: 12px;
+    font-weight: 600;
+        color: white;
+    margin-left: 5px;
+}
+
+
+/* add_to_card_image */
+
+
+/* ChapGpt */
+/* Fade out animation */
+.fade-out {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+}
+
+/* Fade in animation */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInAnim 0.5s forwards;
+}
+
+@keyframes fadeInAnim {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

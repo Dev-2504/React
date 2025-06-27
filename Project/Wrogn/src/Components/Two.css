@@ -1,0 +1,69 @@
+#Two {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    
+}
+
+#First {
+    grid-column: 1 / 3;
+    border-radius: 15px;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+#Second {
+    grid-column: 3 / 5;
+    border-radius: 15px;
+    background-image: url("./Two/First.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Third {
+    grid-column: 1 / 3;
+    border-radius: 15px;
+    background-image: url("./Two/First.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Four {
+    border-radius: 15px;
+    background-image: url("./Two/Third.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Five {
+    border-radius: 15px;
+    background-image: url("./Two/Four.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+@media (max-width : 768px) {
+    #Two {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #First {
+    grid-column: 1 / 2;
+    border-radius: 15px;
+    }
+
+    #Second {
+    grid-column: 1 / 2;
+    border-radius: 15px;
+    }
+
+    #Third {
+    grid-column: 1 / 2;
+    border-radius: 15px;
+    }
+}

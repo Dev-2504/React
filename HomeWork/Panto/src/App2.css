@@ -1,0 +1,36 @@
+* {
+  font-family: "Poppins", sans-serif;
+  border: 1px solid black;
+}
+
+/* #Hero {
+  height: 850px;
+  background-image: url('../public/Hero_Background\(1\).png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+
+#Hero_Text {
+  height: max-content;
+  padding: 10px;
+     backdrop-filter: blur(2px) saturate(149%);
+    -webkit-backdrop-filter: blur(2px) saturate(149%);
+    background-color: rgba(43, 49, 54, 0.58);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125); 
+}
+
+#search {
+   backdrop-filter: blur(17px) saturate(149%);
+    -webkit-backdrop-filter: blur(17px) saturate(149%);
+    background-color: rgba(255, 255, 255, 0.34);
+    /* border-radius: 12px; */
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+
+#Hero_Text_Two {
+  background: #151A1B;
+background: linear-gradient(90deg, rgba(21, 26, 27, 1) 0%, rgba(23, 25, 29, 1) 25%, rgba(27, 32, 34, 1) 50%, rgba(31, 37, 41, 1) 65%, rgba(39, 46, 50, 1) 75%, rgba(52, 58, 62, 1) 89%, rgba(58, 66, 70, 1) 96%, rgba(67, 74, 78, 1) 100%);
+}

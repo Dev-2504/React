@@ -1,0 +1,134 @@
+
+gardyn
+
+
+================================
+
+0px To 640px [Mobile]
+--> Main Padding 12px
+
+sm:
+640px To 768px [Tablet]
+--> Main Padding 20px
+
+md:
+768px To 1024px [Tablet]
+--> Main padding 20px
+
+lg:
+1024px To 1280px [Small Computer]
+--> Main padding 20px
+
+xl:
+1280 To 1536px [Medium Computer]
+--> Main padding 100px
+
+2xl:
+1536px Above [Large Computer]
+--> 1500px
+
+
+================================
+
+Font
+
+Amazing Feature , Demo Preview , Inner Pages
+
+0px To 640px [Mobile]
+--> Header --> First_Heading -->  10px
+               Second_Heading --> 30px
+
+640px To 768px [Tablet]
+--> Header --> First_Heading -->  11px
+               Second_Heading --> 30px
+
+768px To 1024px [Tablet]
+--> Header --> First_Heading -->  12px
+               Second_Heading --> 35px
+
+1024px To 1280px [Small Computer]
+--> Header --> First_Heading -->  12px
+               Second_Heading --> 40px
+
+1280px To 1536px [Medium Computer]
+--> Header --> First_Heading -->  13px
+               Second_Heading --> 45px
+
+1536px Above [Big Computer]
+--> Header --> First_Heading -->  13px
+               Second_Heading --> 50px
+
+
+================================
+
+Card
+
+Amazing Feature
+
+0px To 640px [Mobile]
+Amazing Feature --> 1
+Demo Preview    --> 1
+Inner Pages     --> 1
+
+640px To 768px [Tablet]
+Amazing Feature --> 2
+Demo Preview    --> 2
+Inner Pages     --> 2
+
+768px To 1024px [Tablet]
+Amazing Feature --> 2
+Demo Preview    --> 2
+Inner Pages     --> 2
+
+1024px To 1280 [Small Computer]
+Amazing Feature --> 3
+Demo Preview    --> 3
+Inner Pages     --> 3
+
+1280px To 1536px [Medium Computer]
+Amazing Feature --> 3
+Demo Preview    --> 3
+Inner Pages     --> 4
+
+1536px Above [Big Computer]
+Amazing Feature --> 3
+Demo Preview    --> 3
+Inner Pages     --> 4
+
+
+
+================================
+
+Gap
+
+Amazing Feature
+
+0px To 640px [Mobile]
+Amazing Feature --> 30px
+Demo Preview    --> 60px
+Inner Pages     --> 60px
+
+640px To 768px [Tablet]
+Amazing Feature --> 30px
+Demo Preview    --> 60px
+Inner Pages     --> 60px
+
+768px To 1024px [Tablet]
+Amazing Feature --> 30px
+Demo Preview    --> 20px          -------
+Inner Pages     --> 20px
+
+1024px To 1280 [Small Computer]
+Amazing Feature --> 30px
+Demo Preview    --> 60px
+Inner Pages     --> 20px
+
+1280px To 1536px [Medium Computer]
+Amazing Feature --> 30px
+Demo Preview    --> 60px
+Inner Pages     --> 20px
+
+1536px Above [Big Computer]
+Amazing Feature --> 30px
+Demo Preview    --> 60px
+Inner Pages     --> 60px

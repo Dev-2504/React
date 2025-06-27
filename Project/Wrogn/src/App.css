@@ -1,0 +1,49 @@
+* {
+  /* border: 1px solid black; */
+   /* font-family: "Onest", sans-serif; */
+}
+
+#all_products:hover + #all_products_hover {
+  display: grid;
+  opacity: 100%;
+}
+
+#topwear:hover + #topwear_hover {
+  display: grid;
+}
+#bottomwear:hover + #bottomwear_hover {
+  display: grid;
+}
+
+#footwear:hover + #footwear_hover {
+  display: grid;
+}
+
+#fresh_arrivals:hover + #fresh_arrivals_hover {
+  display: grid;
+}
+#essentials:hover + #essentials_hover {
+  display: grid;
+}
+
+
+
+/* Best Seller */
+
+#Best_Seller_Content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 580px;
+  gap: 20px;
+  max-width: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+#best_seller_one {
+  background-image: url("../public/Best_Seller/CHECKED-SHIRTS-WEBSITE.jpeg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
