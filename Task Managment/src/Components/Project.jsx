@@ -5,6 +5,8 @@ export default function Project() {
     const [formData, setFormData] = useState([])
     const [record, setRecord] = useState([])
 
+    const [editIndex, setEditIndex] = useState(null)
+
     // const [status, setStatus] = useState("Pending")
 
     const handleChange = (e) => {
@@ -18,7 +20,15 @@ export default function Project() {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        setRecord([...record, formData])
+
+        if(editIndex == null)
+        {
+            setRecord([...record, formData])
+        }
+        else {
+            const newData = record.find((e,i) => e.id == editIndex)
+                newData.task = formData.task
+        }
 
         setFormData({
             task:""
@@ -47,6 +57,15 @@ export default function Project() {
 
         setRecord(newData)
     }
+
+
+    const Edit = (id) => {
+        const newData = record.find((e,i) => e.id == id)
+        setFormData({
+            task : newData.task
+        })
+        setEditIndex(newData.id)
+    }
     
   return (
     <div className=''>
@@ -63,6 +82,7 @@ export default function Project() {
                     <li>{e.task}</li>
                     <li>{e.status}</li>
                     <button disabled={e.status == "Resolve"} onClick={() => handleEdit(e.id)}>Resolve</button>
+                    <button onClick={() => Edit(e.id)}>Edit</button>
                     <button onClick={() => handleDelete(e.id)}>Delete</button>
                 </ul>
             )
