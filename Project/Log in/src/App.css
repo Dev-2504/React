@@ -1,0 +1,22 @@
+* {
+    /* border: 1px solid black; */
+}
+
+#SignUp_Image {
+    background-image: url("./assets/SignIn_Side.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+#form_input {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Toastify__toast {
+    min-width: 320px;
+    width: max-content;
+}
