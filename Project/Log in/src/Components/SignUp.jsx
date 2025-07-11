@@ -213,6 +213,7 @@ export default function SignUp() {
               Sign In?
             </Link>
           </p>
+          
         </div>
       </div>
     </div>
